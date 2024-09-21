@@ -1,13 +1,9 @@
-score = int(input("Enter the Student's Score: "))
-if score >= 90:
-  grade = "A"
-elif score >= 80:
-  grade = "B"
-elif score >= 70:
-  grade = "C"
-elif score >= 50:
-  grade = "D"
-else:
-  grade = "F"
+ #Prompt user for their current age
+current_age = int(input("How old are you? "))
 
-print("Your grade is:", grade)
+# Calculate age in 2050 (assuming current year is 2023)
+years_to_add = 27
+age_in_2050 = current_age + years_to_add
+
+# Print result
+print(f"In 2050, you will be {age_in_2050} years old.")
