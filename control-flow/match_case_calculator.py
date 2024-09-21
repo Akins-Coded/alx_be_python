@@ -17,4 +17,4 @@ match operator:
     case _:
         print("Invalid operation!")
 if result is not None:
-    print(f"The result is {result} ")
+    print(f"The result is {result}.")
