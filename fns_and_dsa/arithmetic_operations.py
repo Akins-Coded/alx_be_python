@@ -1,5 +1,5 @@
 
-def perform_operation(num1,num2,operation) -> float or str:
+def perform_operation(num1, num2, operation) -> float or str:
 
     if operation == 'add':
         return num1 + num2
