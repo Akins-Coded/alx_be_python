@@ -2,8 +2,8 @@ def safe_divide(numerator, denominator):
 
 #handle the error
     try:
-        numerator = float(input("Enter a Numerator: "))
-        denominator = float(input("Enter a Denominator: "))
+        numerator = float(Numerator)
+        denominator = float(Denominator)
         result = numerator / denominator
         
         return f"The result is {result}: "
