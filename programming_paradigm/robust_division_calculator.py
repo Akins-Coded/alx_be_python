@@ -2,9 +2,9 @@ def safe_divide(numerator, denominator):
 
 #handle the error
     try:
-        numerator = float(Numerator)
-        denominator = float(Denominator)
-        result = numerator / denominator
+        num = float(numerator)
+        denom = float(denominator)
+        result = num / denom
         
         return f"The result is {result}: "
 
