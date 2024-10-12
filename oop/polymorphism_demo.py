@@ -1,22 +1,20 @@
-class Shape:
-    def __init__(self):
-        pass
+import math
 
-    def area(self ):
-        raise NotImplementedError ("error")
+class Shape:
+    def area(self):
+        raise NotImplementedError("Subclasses must override area() method.")
+
 class Rectangle(Shape):
-    def __init__(self, lenght, width):
-        super().__init__(self)
-        self.lenght = lenght
+    def __init__(self, length, width):
+        self.length = length
         self.width = width
 
-    def area():
-        return f"Area = {self.length * self.width}"  
-    
+    def area(self):
+        return self.length * self.width
+
 class Circle(Shape):
-    pi = 3.412
     def __init__(self, radius):
         self.radius = radius
 
     def area(self):
-        return pi * (self.radius ** 2)
+        return math.pi * (self.radius ** 2)
